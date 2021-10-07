@@ -5,28 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Yaldevi:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="main.css">
 
 <body>
-    <div class="header">
-        <div class="Navigation">
-        </div>
-    </div>
-    <div class="section">
-        <div class="article">
-        </div>
-        <div class="article">
-        </div>
-        <div class="article">
-        </div>
-    </div>
-    </div>
-    <div class="side-bar">
-    </div>
-    <div class="footer">
-    </div>
+    <header>
+        <img src="content/Bilder/fox-logo 100px.png" alt="fox logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <article>
+            <h1>Foxy foxes</h1>
+            <h2>This site is dedicated to all the lonely foxes out there</h2>
+            <p>Jag gillar rävar</p>
+            <p>Rävar är busiga</p>
+            <p>Tycker du om rävar?</p>
+            <p>Rävar är bäst!</p>
+        </article>
+        <aside>
+            <header>
+                <h1>Author biography</h1>
+            </header>
+            <section>
+                <p>Lorem ipsum dolor sit amet, lorem tellus egestas...</p>
+            </section>
+            <img src="Content/bilder/gingerbreadman-96px.png" alt="Gingerbread logo">
+        </aside>
+    </section>
+    <section id="images">
+        <h1>Foxy Images</h1>
+        <h2>Foxes in nature</h2>
+        <p>Lorem ipsum dolor sit amet ...</p>
+        <p>Arcu vel condimentum risus facilisis ...</p>
+        <p>Mauris accumsan, non magna vitae feugiat ipsum ...</p>
+        <p>Hendrerit taciti bibendum ipsum etiam amet ...</p>
+        <article>
+            <img src="Content/Bilder/red-fox-01.jpg" />
+            <p>Sleeping Fox</p>
+        </article>
+        <article>
+            <img src="Content/Bilder/red-fox-02.jpg" />
+            <p>Resting Fox</p>
+        </article>
+        <article>
+            <img src="Content/Bilder/red-fox-03.jpg" />
+            <p>Howling Fox</p>
+        </article>
+        </section>
+        <section id="contact">
+            <article>
+                <h1>Contact</h1>
+                <form>
+                    <label for="email">Email</label>
+                    <br />
+                    <input type="email" autofocusid="email" />
+                    <br />
+                    <label for="message">Message</label>
+                    <br />
+                    <textarea id="message"></textarea>
+                    <br />
+                    <input type="checkbox" checkedid="updates" />
+                    <br />
+                    <label for="updates">Send me email updates</label>
+                    <br />
+                    <input type="submit"value="Send" />
+                </form>
+            </article>
+            </section>
+            <section id="about">
+                <article>
+                <h1>About</h1>
+                <address>
+                    <p>Foxes'R'Us</p>
+                    <p>Email: someone@foxesrus.com</p>
+                    <p>Address: Somewhere street 1, Some country</p>
+                </address>
+                </article>
+            </section>
+            <footer>&copy; 2015, All rights reserved</footer>
 </body>
-
 </html>

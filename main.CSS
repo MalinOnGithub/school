@@ -1,3 +1,89 @@
-.header{
-    background-color: aquamarine;
+body{
+    font-family: 'Yaldevi', sans-serif;
+    background-color: rgb(245, 200, 52);
+}
+body > header{
+    background-color: #cfa956;
+    width: 100%;
+    padding: 5px;
+    top: 0;
+    position: fixed;
+    color: white;
+}
+body > header img{
+    height: 50px;
+}
+
+body > header nav{
+    float: right;
+    margin-right: 20px;
+}
+body > header nav li{
+    border-right: ;
+    float: left;
+    margin-right: 5px;
+    list-style: none;
+    border-right: solid white;
+    padding: 10px;
+}
+body > header nav li a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+body > header nav li a:hover{
+    color: rgba(235, 139, 6, 1)
+}
+body > section{
+    padding-top: 50px;
+    text-align: justify;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 18px;
+}
+#home article {
+    width: 85%;
+    float: left;
+}
+#home aside{
+    width: 10%;
+    float: right;
+    padding: 0px 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    background-color:#d34912de;
+    color: #f7f7f7;
+}
+#home article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+#images{ 
+clear: both;  
+}
+#images article{
+text-align: center;   
+}
+#images img{
+max-width: 50%;
+}
+#contact{
+    margin:auto;
+    width:205px;
+}
+#contact input[type='email'], #contact textarea{
+    width: 200px;
+}
+#about{
+    text-align: center;
+}
+#home{
+    text-align: center;
+}
+#images{
+    text-align: center;
 }
